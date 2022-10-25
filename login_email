@@ -1,2 +1,22 @@
 let reg_mail="abcd@gmail.com";
 let reg_password="abc@123";
+
+let ent_mail="abcd@gmail.com";
+let ent_password="abc@gmail.com";
+
+if(reg_mail==ent_mail)
+{
+
+if(reg_password==ent_password)
+{
+    console.log("Open Account Successfully");
+}
+else
+{
+    console.log("Your Password is wrong");
+}
+}
+else
+{
+    console.log("Your Email is wrong");
+}
